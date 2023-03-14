@@ -1,0 +1,41 @@
+body {
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, rgba(24,18,128,1) 0%, rgba(35,35,203,1) 19%, rgba(26,202,237,1) 66%);
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.middle {
+    width: 50%;
+}
+
+.left, .right {
+    width: 25%;
+}
+
+row::after {
+    content: "";
+  display: table;
+  clear: both;
+}
+
+.topbar {
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.topbar p {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
