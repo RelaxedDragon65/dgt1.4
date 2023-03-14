@@ -2,7 +2,7 @@ body {
     margin: 2;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: linear-gradient(90deg, rgba(24,18,128,1) 0%, rgba(35,35,203,1) 19%, rgba(26,202,237,1) 66%);
 }
 
@@ -27,8 +27,10 @@ row::after {
 
 .topbar {
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: #333;
     border-radius: 25px;
+    color: white;
+    font-weight: 1000;
 }
 
 .topbar p {
