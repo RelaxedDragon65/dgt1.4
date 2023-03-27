@@ -10,3 +10,12 @@ function toggleStyles() {
       style2.disabled = false;
     }
   }
+
+
+const flipBtn = document.querySelector(".flipBtn");
+const btn = document.querySelector(".btn");
+const circle = document.querySelector(".circle");
+flipBtn.addEventListener("click", () => {
+  btn.classList.toggle("move");
+  circle.classList.toggle("expand");
+});
