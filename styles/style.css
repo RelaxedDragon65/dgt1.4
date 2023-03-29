@@ -33,6 +33,7 @@ row::after {
     background-color: #22303c;
     border-radius: 25px;
     font-weight: 1000;
+    
 
 }
 
@@ -118,4 +119,5 @@ row::after {
     text-align: center;
     border-radius: 5px;
     margin-top: 450px;
+
 }
