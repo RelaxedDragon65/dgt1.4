@@ -12,70 +12,190 @@
     <script src="script.js"></script>
     <link id="style1" rel="stylesheet" href="styles/style1.css">
     <link id="style2"  rel="stylesheet" href="styles/style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
    
   </head>
   <body>
-    <div class="topbar">
-      <p>History of technology</p>
-    </div>
+    <nav class="sidebar close">
+      <header>
+          <div class="image-text">
+              <span class="image">
+                  <!--<img src="logo.png" alt="">-->
+              </span>
 
-    <div class="row">
-      <div class="column left">
-        <div>
-            <ul class="navbar">
-            <li><a class="pagelinks" href="index.html">Home</a></li>
-            <li><a class="pagelinks" href="timeline.html">Timeline</a></li>
-            <li><a class="pagelinks" href="change.html">Suggest Change</a></li>
-            <li><a class="toggletheme" href="javascript:toggleStyles()" >Theme</a></li>
-            
-          </ul>
+              <div class="text logo-text">
+                  <span class="name">Codinglab</span>
+                  <span class="profession">Web developer</span>
+              </div>
           </div>
-         
-        </div>
+
+          <i class='bx bx-chevron-right toggle'></i>
+      </header>
+
+      <div class="menu-bar">
+          <div class="menu">
+
+              <li class="search-box">
+                  <i class='bx bx-search icon'></i>
+                  <input type="text" placeholder="Search...">
+              </li>
+
+              <ul class="menu-links">
+                  <li class="nav-link">
+                      <a href="#">
+                          <i class='bx bx-home-alt icon' ></i>
+                          <span class="text nav-text">Dashboard</span>
+                      </a>
+                  </li>
+
+                  <li class="nav-link">
+                      <a href="#">
+                          <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                          <span class="text nav-text">Revenue</span>
+                      </a>
+                  </li>
+
+                  <li class="nav-link">
+                      <a href="#">
+                          <i class='bx bx-bell icon'></i>
+                          <span class="text nav-text">Notifications</span>
+                      </a>
+                  </li>
+
+                  <li class="nav-link">
+                      <a href="#">
+                          <i class='bx bx-pie-chart-alt icon' ></i>
+                          <span class="text nav-text">Analytics</span>
+                      </a>
+                  </li>
+
+                  <li class="nav-link">
+                      <a href="#">
+                          <i class='bx bx-heart icon' ></i>
+                          <span class="text nav-text">Likes</span>
+                      </a>
+                  </li>
+
+                  <li class="nav-link">
+                      <a href="#">
+                          <i class='bx bx-wallet icon' ></i>
+                          <span class="text nav-text">Wallets</span>
+                      </a>
+                  </li>
+
+              </ul>
+          </div>
+
+          <div class="bottom-content">
+              <li class="">
+                  <a href="#">
+                      <i class='bx bx-log-out icon' ></i>
+                      <span class="text nav-text">Logout</span>
+                  </a>
+              </li>
+
+              <li class="mode">
+                  <div class="sun-moon">
+                      <i class='bx bx-moon icon moon'></i>
+                      <i class='bx bx-sun icon sun'></i>
+                  </div>
+                  <span class="mode-text text">Dark mode</span>
+
+                  <div class="toggle-switch">
+                      <span class="switch"></span>
+                  </div>
+              </li>
+              
+          </div>
       </div>
-      <div class="column middle">
-        <div class="maincontent">
-          <h1 class="heading">History of technology</h1>
-          <h5 class="heading subtitle">From the printing press to the internet age, explore the fascinating evolution of technology with us!</h3>
-            <img class="oldpc-home" src="assets/Desktop Computer System - Vector Image.png" alt="old-pc">
-          <p>
-            Digital technology has revolutionized the way we communicate, work, and live our 
-            lives. The history of digital technology can be traced back to the 19th century, 
-            with the invention of the telegraph and the development of Morse code. The first computer, 
-            the Electronic Numerical Integrator And Computer (ENIAC), was built in the 1940s, and marked 
-            a significant milestone in the evolution of digital technology.
 
-            <br/><br/>
-            
-            Throughout the 20th century, 
-            digital technology continued to advance rapidly, 
-            with the development of microprocessors, the internet,
-             and mobile devices. The rise of personal computing in the
-              1980s and 1990s brought about a democratization of technology,
-               making it accessible to more people than ever before.
-            
-            <br/><br/> <a class="explore-btn" href="timeline.html">Explore Now!</a> <br>
-            
-            Today, we live in a world where digital technology is ubiquitous, with smartphones,
-             tablets, laptops, and other devices playing an integral role in our daily lives. 
-             From social media and e-commerce to cloud computing and artificial intelligence,
-              digital technology is changing the way we interact with the world around us.
-            
-            <br/><br/>
-            
-            The history of digital technology
-             is a story of innovation, creativity,
-              and ingenuity. As we look to the future,
-               it is clear that digital technology will
-                continue to shape and transform our world in ways we can only imagine.
-            
-            <br/><br/>
-          </p>
+  </nav>
 
+  <section class="home">
+      <div class="text"><div class="topbar">
+        <p>History of technology</p>
+      </div>
+  
+      <div class="row">
+        <div class="column left">
           
+           
+        
         </div>
-      </div>
-      <div class="column right"></div>
-    </div>
+        <div class="column middle">
+          <div class="maincontent">
+            <h1 class="heading">History of technology</h1>
+            <h5 class="heading subtitle">From the printing press to the internet age, explore the fascinating evolution of technology with us!</h3>
+              <img class="oldpc-home" src="assets/Desktop Computer System - Vector Image.png" alt="old-pc">
+            <p>
+              Digital technology has revolutionized the way we communicate, work, and live our 
+              lives. The history of digital technology can be traced back to the 19th century, 
+              with the invention of the telegraph and the development of Morse code. The first computer, 
+              the Electronic Numerical Integrator And Computer (ENIAC), was built in the 1940s, and marked 
+              a significant milestone in the evolution of digital technology.
+  
+              <br/><br/>
+              
+              Throughout the 20th century, 
+              digital technology continued to advance rapidly, 
+              with the development of microprocessors, the internet,
+               and mobile devices. The rise of personal computing in the
+                1980s and 1990s brought about a democratization of technology,
+                 making it accessible to more people than ever before.
+              
+              <br/><br/> <a class="explore-btn" href="timeline.html">Explore Now!</a> <br>
+              
+              Today, we live in a world where digital technology is ubiquitous, with smartphones,
+               tablets, laptops, and other devices playing an integral role in our daily lives. 
+               From social media and e-commerce to cloud computing and artificial intelligence,
+                digital technology is changing the way we interact with the world around us.
+              
+              <br/><br/>
+              
+              The history of digital technology
+               is a story of innovation, creativity,
+                and ingenuity. As we look to the future,
+                 it is clear that digital technology will
+                  continue to shape and transform our world in ways we can only imagine.
+              
+              <br/><br/>
+            </p>
+  
+            
+          </div>
+        </div>
+        <div class="column right"></div>
+      </div></div>
+  </section>
+
+  <script>
+      const body = document.querySelector('body'),
+    sidebar = body.querySelector('nav'),
+    toggle = body.querySelector(".toggle"),
+    searchBtn = body.querySelector(".search-box"),
+    modeSwitch = body.querySelector(".toggle-switch"),
+    modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+  sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+  sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+  body.classList.toggle("dark");
+  
+  if(body.classList.contains("dark")){
+      modeText.innerText = "Light mode";
+  }else{
+      modeText.innerText = "Dark mode";
+      
+  }
+});
+  </script>
+
   </body>
 </html>
