@@ -3,7 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: white;
     /* background-image: linear-gradient(to right, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%); */
     /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
 }
@@ -74,7 +73,7 @@ row::after {
 
 .maincontent {
     padding: 15px;
-    background-color: #192734;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     border-radius: 10px;
     margin-top: 50px;
 }
@@ -110,17 +109,6 @@ row::after {
     font-size: 25px;
 }
 
-.toggletheme {
-    display: block;
-    background-color: #1DA1F2;
-    padding: 15px;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 450px;
-
-}
 
 
 
