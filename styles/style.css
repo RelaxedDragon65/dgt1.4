@@ -73,9 +73,10 @@ row::after {
 
 .maincontent {
     padding: 15px;
-    background-color: white;
+    background-color: #116191;
     border-radius: 10px;
     margin-top: 50px;
+    color: white;
 }
 
 .heading {
@@ -109,6 +110,13 @@ row::after {
     font-size: 25px;
 }
 
+.slider {
+border: 1px solid black;
+height: 100%;
+width: 100%;
+overflow-x: scroll;
+}
+
 
 
 
@@ -124,7 +132,7 @@ row::after {
 :root{
     
 
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    --body-color: #18191a;
     --sidebar-color: #242526;
     --primary-color: #3a3b3c;
     --primary-color-light: #3a3b3c;
