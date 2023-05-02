@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,118 +9,212 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,900&display=swap" rel="stylesheet" />
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="sidebar close">
-      <header>
-          <div class="image-text">
-              <span class="image">
-                  <!--<img src="logo.png" alt="">-->
-              </span>
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <!--<img src="logo.png" alt="">-->
+                </span>
 
-              <div class="text logo-text">
-                  <span class="name">History of Technology</span>
-                  <span class="profession"></span>
-              </div>
-          </div>
+                <div class="text logo-text">
+                    <span class="name">History of Technology</span>
+                    <span class="profession"></span>
+                </div>
+            </div>
 
-          <i class='bx bx-chevron-right toggle'></i>
-      </header>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
 
-      <div class="menu-bar">
-          <div class="menu">
+        <div class="menu-bar">
+            <div class="menu">
 
-              <li class="search-box">
-                  <i class='bx bx-search icon'></i>
-                  <input type="text" placeholder="Search...">
-              </li>
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
 
-              <ul class="menu-links">
-                  <li class="nav-link">
-                      <a href="index.html">
-                          <i class='bx bx-home-alt icon' ></i>
-                          <span class="text nav-text">Home</span>
-                      </a>
-                  </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="index.html">
+                            <i class='bx bx-home-alt icon'></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
 
-                  <li class="nav-link">
-                      <a href="timeline.html">
-                          <i class='bx bx-bar-chart-alt-2 icon' ></i>
-                          <span class="text nav-text">Timeline</span>
-                      </a>
-                  </li>
+                    <li class="nav-link">
+                        <a href="timeline.html">
+                            <i class='bx bx-bar-chart-alt-2 icon'></i>
+                            <span class="text nav-text">Timeline</span>
+                        </a>
+                    </li>
 
-                  <li class="nav-link">
-                      <a href="change.html">
-                          <i class='bx bx-bell icon'></i>
-                          <span class="text nav-text">Suggest Change</span>
-                      </a>
-                  </li>
-
-
-              </ul>
-          </div>
-
-          <div class="bottom-content">
-              <li class="">
-                  <a href="#">
-                      <i class='bx bx-log-out icon' ></i>
-                      <span class="text nav-text">Logout</span>
-                  </a>
-              </li>
-
-              <li class="mode">
-                  <div class="sun-moon">
-                      <i class='bx bx-moon icon moon'></i>
-                      <i class='bx bx-sun icon sun'></i>
-                  </div>
-                  <span class="mode-text text">Dark mode</span>
-
-                  <div class="toggle-switch">
-                      <span class="switch"></span>
-                  </div>
-              </li>
-              
-          </div>
-      </div>
-
-  </nav>
-
-  <section class="home">
-      
-  </section>
-
-  <script>
-      const body = document.querySelector('body'),
-    sidebar = body.querySelector('nav'),
-    toggle = body.querySelector(".toggle"),
-    searchBtn = body.querySelector(".search-box"),
-    modeSwitch = body.querySelector(".toggle-switch"),
-    modeText = body.querySelector(".mode-text");
+                    <li class="nav-link">
+                        <a href="change.html">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Suggest Change</span>
+                        </a>
+                    </li>
 
 
-toggle.addEventListener("click" , () =>{
-  sidebar.classList.toggle("close");
-})
+                </ul>
+            </div>
 
-searchBtn.addEventListener("click" , () =>{
-  sidebar.classList.remove("close");
-})
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
 
-modeSwitch.addEventListener("click" , () =>{
-  body.classList.toggle("dark");
-  
-  if(body.classList.contains("dark")){
-      modeText.innerText = "Light mode";
-  }else{
-      modeText.innerText = "Dark mode";
-      
-  }
-});
-  </script>
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
 
-  </body>
-</html> 
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+       
+        <div class="row">
+            <div class="column left"> <div class="timeline">
+                <div class="outer">
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">1900</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">1930s</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">world war 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">1950s</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">1970s</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+            <div class="column middle"></div>
+            <div class="column right"> <div class="timeline">
+                <div class="outer">
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">1980s</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">1990s</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">2000s</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">Our Time</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">The future</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+
+    </section>
+
+    <script>
+        const body = document.querySelector('body'),
+            sidebar = body.querySelector('nav'),
+            toggle = body.querySelector(".toggle"),
+            searchBtn = body.querySelector(".search-box"),
+            modeSwitch = body.querySelector(".toggle-switch"),
+            modeText = body.querySelector(".mode-text");
+
+
+        toggle.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        })
+
+        searchBtn.addEventListener("click", () => {
+            sidebar.classList.remove("close");
+        })
+
+        modeSwitch.addEventListener("click", () => {
+            body.classList.toggle("dark");
+
+            if (body.classList.contains("dark")) {
+                modeText.innerText = "Light mode";
+            } else {
+                modeText.innerText = "Dark mode";
+
+            }
+        });
+    </script>
+
+</body>
+
+</html>
