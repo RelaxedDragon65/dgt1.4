@@ -577,6 +577,7 @@ body.dark .home .text{
 			font-size: 20px;
 			font-weight: bold;
 			margin-bottom: 10px;
+            color: var(--text-color);
 		}
 		.form-group input,
 		.form-group textarea {
@@ -597,6 +598,7 @@ body.dark .home .text{
 		}
 		.form-group textarea {
 			height: 200px;
+            
 		}
 		.btn {
 			display: inline-block;
@@ -613,3 +615,7 @@ body.dark .home .text{
 			background-color: #444444;
 			color: #ffffff;
 		}
+
+.change {
+    color: var(--text-color);
+}
